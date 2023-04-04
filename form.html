@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html style="    
+margin: 20px;
+color: blue;
+font-size: 24px;
+">
+  <head>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/">Home</a>
+        <a href="./form">Form</a>
+      </nav>
+    </header>
+    <main>
+    </main>
+    <form method="POST" action="http://localhost:3000/profile">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"
+      placeholder="First name"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"
+      placeholder="Last name"><br>
+      <input type="text" id="email" name="email"
+      placeholder="abc@123.com"><br>
+      <input type="radio" id="gender" name="male" value="Male">
+      <label for="male">Male</label>
+      <input type="radio" id="gender" name="female" value="Female">
+      <label for="female">Female</label>
+      <input type="radio" id="gender" name="other" value="Other">
+      <label for="other">Other</label><br>
+      <input type="checkbox" id="emailCampaign" name="emailCampaign" value="Yes">
+      <label for="emailCampaign">I would like to receive emails from this campaign!</label><br>
+      <label for="source">How did you hear about us?:</label>
+      <select name="source" id="source">
+        <option value="email">Email</option>
+        <option value="radio">Radio</option>
+        <option value="television">Television</option>
+        <option value="word of mouth">Word of Mouth</option>
+      </select>
+      <button type="submit">Submit form</button>
+    </form>
+    <footer>Form Copyright 2021 &copy;</footer>
+  </body>
+</html>
