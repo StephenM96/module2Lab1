@@ -1,0 +1,1 @@
+Create a basic webpage with filler information and have it link to a form page for data inputs. Have that form submit the inputted data to a server run through a JSON file.
